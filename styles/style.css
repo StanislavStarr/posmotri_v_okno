@@ -11,15 +11,19 @@
   margin-block-start: 75px;
 }
 
+.result__video-container,
+.content__list {
+  position: relative;
+}
+
 .result__video {
   inline-size: 100%;
   block-size: 388px;
 }
 
 .search-form {
-  position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 40px;
   margin-block-start: 8px;
 }
@@ -72,6 +76,10 @@
   outline: 1px solid #fff;
 }
 
+.search-form__fieldset:last-of-type {
+  margin-block-end: 5px;
+}
+
 .search-form__fieldset:last-of-type .search-form__label span:first-of-type {
   display: inline-block;
   inline-size: 19px;
@@ -108,12 +116,6 @@ input[type='checkbox']:checked + span {
   inline-size: 194px;
   block-size: 34px;
   padding-block: 6px;
-}
-
-.search-form__submit-button {
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .more-button {
