@@ -111,7 +111,6 @@ input[type='checkbox']:checked + span {
 }
 
 .search-form__submit-button {
-  position: absolute;
   bottom: 0;
   right: 0;
 }
