@@ -10,6 +10,7 @@
   margin-block-start: 75px;
 }
 
+
 .result__video-container,
 .content__list {
   position: relative;
@@ -23,6 +24,7 @@
 .search-form {
   display: flex;
   align-items: flex-end;
+
   gap: 40px;
   margin-block-start: 8px;
 }
@@ -116,6 +118,7 @@ input[type='checkbox']:checked + span {
   block-size: 34px;
   padding-block: 6px;
 }
+
 
 .more-button {
   inline-size: 100%;
